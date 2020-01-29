@@ -5,7 +5,7 @@ public class Square {
         this.a = a;
     }
 
-    double squareArea(Square square){
-        return square.a*square.a;
+    double squareArea(){
+        return a*a;
     }
 }

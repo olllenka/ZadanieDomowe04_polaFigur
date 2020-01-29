@@ -5,7 +5,7 @@ public class Circle {
         this.r = r;
     }
 
-    double circleArea(Circle cirle){
-        return 3.14*cirle.r*cirle.r;
+    double circleArea(){
+        return 3.14*r*r;
     }
 }

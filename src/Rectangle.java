@@ -7,7 +7,7 @@ public class Rectangle {
         this.b = b;
     }
 
-    double rectPerimeter(Rectangle rectangle){
-        return 2*(rectangle.a+rectangle.b);
+    double rectPerimeter(){
+        return 2*(a+b);
     }
 }
